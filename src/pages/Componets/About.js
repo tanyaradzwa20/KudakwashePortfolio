@@ -82,7 +82,7 @@ function About (){
     <AboutHeading>About</AboutHeading>
     <AboutContainer>
         <div>
-            <img src={process.env.PUBLIC_URL + "images/about.png"} className='AboutImage' alt="Kudakwashe Sachirahwe, UI/UX Designer " />
+            <img src={process.env.PUBLIC_URL + "images/about.svg"} className='AboutImage' alt="Kudakwashe Sachirahwe, UI/UX Designer " />
         </div>
         <div>
             <AboutText>
