@@ -89,7 +89,7 @@ function Contact() {
         </Col>
         <Col md={6}>
           <Absolute/>
-          <img src='images/kuda.png' alt="UX/UI designer" id="ContactImg"/>
+          <img src='images/kuda.svg' alt="UX/UI designer" id="ContactImg"/>
         </Col>
       </Row>
     </section>
