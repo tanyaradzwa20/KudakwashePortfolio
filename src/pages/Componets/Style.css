@@ -1,0 +1,326 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    /* overflow-x: hidden; */
+
+}
+
+html {
+    overflow-x: hidden;
+    font-size: 2em;
+
+}
+
+body {
+    background-color: #F5EFE6;
+    overflow-x: hidden;
+}
+
+a,
+button {
+    background-color: #FF9B4F;
+    color: #ffff;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1px;
+    font-weight: 700;
+    border: none;
+}
+
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+section {
+    margin-top: 100px;
+    background-color: #EFE7DC;
+    padding: 50px 0 50px;
+}
+
+h1 {
+    color: #525252fc;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.hero-text {
+    font-size: 18px;
+    color: rgba(90, 90, 90, 0.94);
+    padding: 40px 0;
+    font-weight: 500;
+}
+
+.hero-btn {
+    width: 220px;
+    height: 55px;
+    font-size: 17px;
+}
+
+.IconsStyles {
+    margin-right:40px;
+    font-size: 35px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 11px;
+    height: 40px;
+    background-color: transparent;
+}
+
+.IconsStyles:hover {
+    color: #FF9B4F;
+}
+.iconImage{
+    width: 85%;
+}
+.AboutImage {
+    width: 700px;
+    height: 300px;
+    object-fit: contain;
+
+}
+
+h3::before {
+    content: '';
+    background-color: #FF9B4F;
+    width: 80px;
+    height: 2px;
+    display: inline-block;
+    margin: 5px 15px 5px 0;
+}
+
+
+.CardImg {
+    width: 90%;
+    margin: auto;
+}
+
+.CardButton {
+    height: 50px;
+    width: 300px;
+}
+
+form {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    border-radius: 15px;
+}
+.fi{
+    margin: 0 15px;
+}
+input,
+textarea {
+    width: 90%;
+    height: 65px;
+    padding: 15px;
+    background-color: #F5F5F5;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    margin: 40px auto 0;
+    border-radius: 8px;
+    outline: 0;
+}
+
+#message {
+    height: 300px;
+}
+
+form button {
+    width: 40%;
+    height: 50px;
+    margin: 40px 0 40px auto;
+    font-size: 20px;
+    margin-right: 30px;
+}
+
+#ContactImg {
+    width: 100%;
+}
+
+#ContactRow {
+    display: flex;
+    align-items: flex-end;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+    border-radius: 0;
+    width: 100%;
+    position: absolute;
+    margin-top: 37px;
+}
+
+.menu-bars {
+    font-size: 25px;
+    background: none;
+    margin-left: auto;
+    padding: 10px;
+    color: white;
+    background-color: #FF9B4F;
+    ;
+
+}
+
+.nav-menu {
+    width: 30%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    transition: .9s;
+    height: 100vh;
+    background: white;
+}
+
+.nav-menu.active {
+    right: 0;
+    transition: .9s;
+}
+
+.nav-menu-items {
+    height: 100vh;
+}
+
+.nav-text {
+    list-style: none;
+    display: flex;
+    margin: 120px auto;
+    justify-content: center;
+}
+
+.nav-text a {
+    color: rgba(102, 101, 101, 0.61);
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    background: transparent;
+}
+
+.nav-text a:hover {
+    color: black;
+}
+
+.menu-bars-hide {
+    position: absolute;
+    right: 65px;
+    top: 38px;
+}
+
+
+
+@media (max-width: 575px) {
+    h1 {
+        font-size: 40px
+    }
+
+    .hero-btn {
+        width: 160px;
+        height: 50px;
+        font-size: 15px;
+    }
+
+    .IconsStyles {
+        font-size: 28px;
+    }
+
+    #ContactRow {
+        flex-direction: column;
+        align-items: inherit;
+        padding: 0 15px;
+    }
+
+    form {
+
+        margin-left: 0;
+    }
+
+    .nav-menu {
+        width: 100%
+    }
+
+    .menu-bars-hide {
+        right: 20px
+    }
+
+}
+
+
+@media (min-width: 568px) and (max-width: 767px) {
+    h1 {
+        font-size: 30px
+    }
+
+    .hero-btn {
+        width: 160px;
+        height: 45px;
+        font-size: 13px;
+    }
+
+    .IconsStyles {
+        font-size: 28px;
+    }
+
+    #ContactRow {
+        flex-direction: column;
+        align-items: inherit;
+        padding: 0 15px;
+    }
+
+    form {
+
+        margin-left: 0;
+    }
+
+    .nav-menu {
+        width: 100%
+    }
+
+    .menu-bars-hide {
+        right: 20px
+    }
+    .hero-text {
+        padding: 10px 0;
+        font-size: 15px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .AboutImage {
+        width: auto;
+    }
+
+    #ContactRow {
+        flex-direction: column;
+        align-items: normal;
+        padding: 0 30px;
+    }
+
+    form {
+        margin: 0;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .CardButton {
+        height: 50px;
+        width: 200px;
+    }
+
+    .AboutImage {
+        width: auto;
+    }
+
+
+}
