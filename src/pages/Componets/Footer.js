@@ -9,9 +9,7 @@ const GlobalFooter = styled.div`
     background-color: #EFE7DC;
     padding: 30px 0;
 
-
 `
-
 const FooterContent =styled.h4`
     font-size: 18px;
     font-weight: 700;

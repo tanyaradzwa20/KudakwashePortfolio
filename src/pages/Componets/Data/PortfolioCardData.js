@@ -8,7 +8,7 @@ export const CardData = [
     },
     {   
         image:  "images/app.svg",  
-        title: "We Are Plusvans. A waste management service that disposes of all all your unwanted garbage for you all while ensuring we keep the environment green.",
+        title: "We Are Plusvans. A waste management service that disposes of all all your unwanted garbages for you all while ensuring we keep the environment green.",
         linkUrl: "/portfolio-page",
         linkText:"Visite Mobile Apps"
     },
