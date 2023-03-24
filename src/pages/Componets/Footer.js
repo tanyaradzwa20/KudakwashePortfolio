@@ -31,10 +31,10 @@ function Footer() {
         {/* <FooterContent>Kuda Sachie</FooterContent> */}
         <FooterContent>Follow @Kudakwashe Sachie</FooterContent>
         <FooterIcons>
-            <Link to="/https://twitter.com/KudaSachie" className='IconsStyles fi'><FaTwitter/></Link>
-            <Link to="/https://www.facebook.com/profile.php?id=100006154841172" className='IconsStyles fi'><FaFacebook/></Link>
-            <Link to="/https://www.instagram.com/kudah_sachie/?hl=en" className='IconsStyles fi'><FaInstagram/></Link>
-            <Link to="/https://www.linkedin.com/in/kudakwashe-sachirahwe-9330ba1b5/" className='IconsStyles fi'><FaLinkedin/></Link>
+            <a href="https://twitter.com/KudaSachie" className='IconsStyles fi'><FaTwitter/></a>
+            <a href="https://www.facebook.com/profile.php?id=100006154841172" className='IconsStyles fi'><FaFacebook/></a>
+            <a href="https://www.instagram.com/kudah_sachie/?hl=en/https://www.instagram.com/kudah_sachie/?hl=en" className='IconsStyles fi'><FaInstagram/></a>
+            <a href="https://www.linkedin.com/in/kudakwashe-sachirahwe-9330ba1b5/" className='IconsStyles fi'><FaLinkedin/></a>
         </FooterIcons>
     </GlobalFooter>
     

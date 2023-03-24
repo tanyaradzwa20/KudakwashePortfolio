@@ -26,9 +26,9 @@ const Icons = styled.div`
 function IconsData() {
   return (
     <Icons>
-        <Link to="/" className='IconsStyles'><img src='images/figma.png' alt='kudakwashe sachirahwe' className='iconImage'/></Link>
-        <Link to="/" className='IconsStyles'><img src='images/xd.png' alt='kudakwashe sachirahwe' className='iconImage'/></Link>
-        <Link to="/" className='IconsStyles'><img src='images/photoshop.png' alt='kudakwashe sachirahwe' className='iconImage'/></Link>
+        <Link to="/" className='IconsStyles'><img src='images/figma.svg' alt='kudakwashe sachirahwe' className='iconImage'/></Link>
+        <Link to="/" className='IconsStyles'><img src='images/xd.svg' alt='kudakwashe sachirahwe' className='iconImage'/></Link>
+        <Link to="/" className='IconsStyles'><img src='images/photoshop.svg' alt='kudakwashe sachirahwe' className='iconImage'/></Link>
     </Icons>
   )
 }
