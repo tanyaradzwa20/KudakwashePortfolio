@@ -229,6 +229,9 @@ form button {
         height: 50px;
         font-size: 15px;
     }
+    .hero-text {
+        width: 70%;
+    }
 
     .IconsStyles {
         font-size: 28px;
