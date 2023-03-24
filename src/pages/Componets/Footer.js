@@ -37,6 +37,7 @@ function Footer() {
             <Link to="/https://www.linkedin.com/in/kudakwashe-sachirahwe-9330ba1b5/" className='IconsStyles fi'><FaLinkedin/></Link>
         </FooterIcons>
     </GlobalFooter>
+    
   )
 }
 
